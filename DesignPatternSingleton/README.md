@@ -1,0 +1,2 @@
+A singleton pattern implementation.
+
