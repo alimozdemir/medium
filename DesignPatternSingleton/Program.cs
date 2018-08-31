@@ -8,8 +8,10 @@ namespace DesignPatternSingleton
         {
             IActionHistory v3 = ActionHistory_V3.Instance;
             v3.AddAction("hello 1");
+            v3.Save();
 
-            Console.WriteLine(v3.RetriveLastAction());
+            foreach(var item in v3.RetriveAllActions())
+                Console.WriteLine(item);
         }
     }
 }
