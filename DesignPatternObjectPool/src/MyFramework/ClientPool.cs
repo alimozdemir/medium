@@ -5,11 +5,11 @@ using System.Threading;
 
 namespace MyFramework
 {
-    public class ObjectPool
+    public class ClientPool
     {
-        private static Lazy<ObjectPool> instance
-            = new Lazy<ObjectPool>(() => new ObjectPool());
-        public static ObjectPool Instance { get; } = instance.Value;
+        private static Lazy<ClientPool> instance
+            = new Lazy<ClientPool>(() => new ClientPool());
+        public static ClientPool Instance { get; } = instance.Value;
         public int Size { get { return _currentSize; } }
         public int TotalObject { get { return _counter; } }
 
@@ -19,16 +19,15 @@ namespace MyFramework
         private volatile int _counter;
         private object _lockObject = new object();
 
-        private ObjectPool()
+        private ClientPool()
             : this(defaultSize)
         {
-
         }
-        private ObjectPool(int size)
+        private ClientPool(int size)
         {
-            Console.WriteLine("size {0}", size);
             _currentSize = size;
         }
+        
         public Client AcquireObject()
         {
             _bag.TryTake(out Client item);
