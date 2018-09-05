@@ -12,14 +12,14 @@ namespace DesignPatternObjectPool
         static void Main(string[] args)
         {
             BasicExample();
-            // ParalleFor();
+            //ParalleFor();
         }
 
         static void BasicExample()
         {
             Console.WriteLine("Size of the pool {0}", ClientPool.Instance.Size);
 
-            Console.WriteLine("Connecting with client1");
+            Console.WriteLine("Acquiring with client1");
             var client1 = ClientPool.Instance.AcquireObject();
 
             client1.Connect();
@@ -57,11 +57,12 @@ namespace DesignPatternObjectPool
             foreach(var item in clients)
                 ClientPool.Instance.ReleaseObject(item);
         }
-        
+        static volatile int fails = 0;
         static void ParalleFor()
         {
+            fails = 0;
             // checking the thread-safety.
-            Parallel.For(0, 100, (i, state) =>
+            Parallel.For(0, 10, (i, state) =>
             {
                 Console.WriteLine($"Counter: {ClientPool.Instance.TotalObject}/{ClientPool.Instance.Size}");
                 var obj = ClientPool.Instance.AcquireObject();
@@ -73,7 +74,11 @@ namespace DesignPatternObjectPool
                     obj.Connect();
                     ClientPool.Instance.ReleaseObject(obj);
                 }
+                else
+                    fails++;
             });
+
+            Console.WriteLine("Fails " + fails);
         }
     }
 }

@@ -27,25 +27,27 @@ namespace MyFramework
         {
             _currentSize = size;
         }
-        
+
         public Client AcquireObject()
         {
-            _bag.TryTake(out Client item);
-
-            lock (_lockObject)
+            if (!_bag.TryTake(out Client item))
             {
-                if (item == null)
+                lock (_lockObject)
                 {
-                    if (_counter >= _currentSize)
-                        // or throw an exception, or wait for an object to return.
-                        return null;
+                    if (item == null)
+                    {
+                        if (_counter >= _currentSize)
+                            // or throw an exception, or wait for an object to return.
+                            return null;
 
-                    item = new RequestClient();
+                        item = new RequestClient();
 
-                    // it could be Interlocked.Increment(_counter). Since, we have locked the section, I don't think we need that.
-                    _counter++;
+                        // it could be Interlocked.Increment(_counter). Since, we have locked the section, I don't think we need that.
+                        _counter++;
 
+                    }
                 }
+
             }
 
             return item;
