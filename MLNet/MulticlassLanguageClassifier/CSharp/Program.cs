@@ -31,17 +31,16 @@ namespace textc
             // Create textloader for our structure
             var textLoader = context.Data.CreateTextReader(new TextLoader.Arguments()
             {
-                Separator = "tab",
+                Separator = "\t",
                 Column = new[] { 
                     new TextLoader.Column("Label", DataKind.Text, 0), 
                     new TextLoader.Column("Sentence", DataKind.Text, 1)
                 }
             });
 
-
             var trainDataView = textLoader.Read(dataPath);
             var testDataView = textLoader.Read(testDataPath);
-
+            
             // Create data process pipeline
             // First we have to change label value into ML.NET KeyType
             var dataProcessPipeline = context.Transforms.Conversion.MapValueToKey("Label")
@@ -57,11 +56,9 @@ namespace textc
             // Create our model with train data
             var model = dataProcessPipeline.Fit(trainDataView);
             // Transform our model with test data
-            var predictions = model.Transform(testDataView);
-            // Evaluate the model
-            var metrics = context.MulticlassClassification.Evaluate(predictions);
-            // Print the results
-            Evaluate(metrics);
+            var testPredictions = model.Transform(testDataView);
+            // Evaluate the model and Print the results
+            Evaluate(context, testPredictions);
 
             // Create single prediction engine
             var predictionEngine = model.CreatePredictionEngine<SentenceData, PredictionData>(context);
@@ -72,10 +69,11 @@ namespace textc
 
             Console.WriteLine("Predicted language {0}", result.PredictedLabel);
 
-            TweetTest.UsersTimelineTest(predictionEngine, "NetflixES", "es");
-            TweetTest.UsersTimelineTest(predictionEngine, "netflix", "en", 100);
-            TweetTest.UsersTimelineTest(predictionEngine, "netflixturkiye", "tr");
+            TweetTest.UsersTimelineTest(predictionEngine, "NetflixES", "es", 400);
+            TweetTest.UsersTimelineTest(predictionEngine, "netflix", "en", 400);
+            TweetTest.UsersTimelineTest(predictionEngine, "netflixturkiye", "tr", 400);
         }
+
         static void Main(string[] args)
         {
             // var model = Train();
@@ -83,15 +81,16 @@ namespace textc
         }
 
 
-        static void Evaluate(MultiClassClassifierMetrics metrics)
+        static void Evaluate(MLContext context, IDataView predictions)
         {
+            var metrics = context.MulticlassClassification.Evaluate(predictions);
             Console.WriteLine();
-            Console.WriteLine("PredictionModel quality metrics evaluation");
+            Console.WriteLine("Model quality metrics evaluation");
             Console.WriteLine("------------------------------------------");
             Console.WriteLine($"Accuracy Macro: {metrics.AccuracyMacro}");
             Console.WriteLine($"Accuracy Micro: {metrics.AccuracyMicro}");
-            Console.WriteLine($"TopKAccuracy: {metrics.TopKAccuracy}");
-            Console.WriteLine($"LogLoss: {metrics.LogLoss}");
+            // Console.WriteLine($"TopKAccuracy: {metrics.TopKAccuracy}");
+            // Console.WriteLine($"LogLoss: {metrics.LogLoss}");
         }
     }
 }
