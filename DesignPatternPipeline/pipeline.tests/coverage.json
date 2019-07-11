@@ -1,0 +1,208 @@
+{
+  "pipeline.dll": {
+    "/Users/alimozdemir/Documents/Temp/pipeline/Pipeline.cs": {
+      "pipeline.PipeObject": {
+        "pipeline.IPipeObject pipeline.PipeObject::get_NextPipe()": {
+          "Lines": {
+            "15": 11
+          },
+          "Branches": []
+        },
+        "System.Void pipeline.PipeObject::Next(System.Object)": {
+          "Lines": {
+            "18": 7,
+            "19": 7,
+            "20": 7
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            }
+          ]
+        }
+      },
+      "pipeline.Pipeline": {
+        "pipeline.IPipeObject pipeline.Pipeline::get_Head()": {
+          "Lines": {
+            "29": 4
+          },
+          "Branches": []
+        },
+        "pipeline.IPipeObject pipeline.Pipeline::get_Tail()": {
+          "Lines": {
+            "30": 2
+          },
+          "Branches": []
+        },
+        "pipeline.Pipeline pipeline.Pipeline::Append(pipeline.IPipeObject)": {
+          "Lines": {
+            "33": 14,
+            "34": 14,
+            "35": 5,
+            "37": 14,
+            "38": 9,
+            "40": 14,
+            "41": 14,
+            "42": 14
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 37,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9
+            },
+            {
+              "Line": 37,
+              "Offset": 32,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 14
+            }
+          ]
+        },
+        "System.Void pipeline.Pipeline::Start(System.Object)": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/alimozdemir/Documents/Temp/pipeline/Program.cs": {
+      "pipeline.ConsoleOutput": {
+        "System.Void pipeline.ConsoleOutput::Invoke(System.Object)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      },
+      "pipeline.IgnoreWhiteSpaces": {
+        "System.Void pipeline.IgnoreWhiteSpaces::Invoke(System.Object)": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "21": 2,
+            "22": 1,
+            "23": 2
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 19,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "pipeline.Lower": {
+        "System.Void pipeline.Lower::Invoke(System.Object)": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        }
+      },
+      "pipeline.Split": {
+        "System.Void pipeline.Split::Invoke(System.Object)": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "42": 1,
+            "44": 13,
+            "45": 5,
+            "46": 5,
+            "47": 5,
+            "48": 1
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 51,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 44,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "pipeline.Program": {
+        "System.Void pipeline.Program::Main(System.String[])": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
