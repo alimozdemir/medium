@@ -1,0 +1,87 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.1
+-------------------------------------------------------------------------------
+count time : 2019-08-10 16:44:27
+count workspace : /Users/alimozdemir/Documents/Temp/hfdynamic
+total files : 62
+total code lines : 20003
+total comment lines : 29
+total blank lines : 131
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .cs|            273|             29|             60|    1.4|
+   |       .targets|              6|              0|              0|  0.030|
+   |         .props|             15|              0|              0|  0.075|
+   |         .cache|              8|              0|              0|  0.040|
+   |          .json|          19648|              0|             67|     98|
+   |        .csproj|             12|              0|              4|  0.060|
+   |  .CopyComplete|              0|              0|              0|    0.0|
+   |           .txt|             40|              0|              0|   0.20|
+   |           .xml|              1|              0|              0| 0.0050|
+   -------------------------------------------------------------------------
+appsettings.Development.json, code is 9, comment is 0, blank is 0.
+appsettings.json, code is 13, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/appsettings.Development.json, code is 9, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/appsettings.json, code is 13, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/Dapper.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/es/Hangfire.Core.resources.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/Hangfire.AspNetCore.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/Hangfire.Core.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/Hangfire.PostgreSql.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/hfdynamic, it is a binary file.
+bin/Debug/netcoreapp3.0/hfdynamic.deps.json, code is 4159, comment is 0, blank is 1.
+bin/Debug/netcoreapp3.0/hfdynamic.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/hfdynamic.pdb, it is a binary file.
+bin/Debug/netcoreapp3.0/hfdynamic.runtimeconfig.dev.json, code is 8, comment is 0, blank is 1.
+bin/Debug/netcoreapp3.0/hfdynamic.runtimeconfig.json, code is 12, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/nl/Hangfire.Core.resources.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/Npgsql.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/plugins/plugin1/hfdynamic_job1.deps.json, code is 63, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/Properties/launchSettings.json, code is 30, comment is 0, blank is 0.
+bin/Debug/netcoreapp3.0/pt-BR/Hangfire.Core.resources.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/win-arm64/native/sni.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/win-x64/native/sni.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/win-x86/native/sni.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/System.Data.SqlClient.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/System.Text.Encoding.CodePages.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/zh-TW/Hangfire.Core.resources.dll, it is a binary file.
+bin/Debug/netcoreapp3.0/zh/Hangfire.Core.resources.dll, it is a binary file.
+Controllers/ValuesController.cs, code is 51, comment is 9, blank is 14.
+hfdynamic.csproj, code is 12, comment is 0, blank is 4.
+Jobs/DynamicLoad.cs, code is 68, comment is 0, blank is 14.
+Jobs/PluginLoadContext.cs, code is 32, comment is 0, blank is 6.
+obj/Debug/netcoreapp3.0/hfdynamic, it is a binary file.
+obj/Debug/netcoreapp3.0/hfdynamic.AssemblyInfo.cs, code is 9, comment is 10, blank is 4.
+obj/Debug/netcoreapp3.0/hfdynamic.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/hfdynamic.assets.cache, it is a binary file.
+obj/Debug/netcoreapp3.0/hfdynamic.csproj.CopyComplete, code is 0, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/hfdynamic.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/hfdynamic.csproj.FileListAbsolute.txt, code is 40, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/hfdynamic.csprojAssemblyReference.cache, it is a binary file.
+obj/Debug/netcoreapp3.0/hfdynamic.dll, it is a binary file.
+obj/Debug/netcoreapp3.0/hfdynamic.MvcApplicationPartsAssemblyInfo.cs, code is 0, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/hfdynamic.pdb, it is a binary file.
+obj/Debug/netcoreapp3.0/hfdynamic.RazorTargetAssemblyInfo.cache, code is 1, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/project.razor.json, code is 12853, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/staticwebassets/hfdynamic.StaticWebAssets.Manifest.cache, code is 0, comment is 0, blank is 0.
+obj/Debug/netcoreapp3.0/staticwebassets/hfdynamic.StaticWebAssets.xml, code is 1, comment is 0, blank is 0.
+obj/hfdynamic.csproj.nuget.cache, code is 5, comment is 0, blank is 0.
+obj/hfdynamic.csproj.nuget.dgspec.json, code is 79, comment is 0, blank is 5.
+obj/hfdynamic.csproj.nuget.g.props, code is 15, comment is 0, blank is 0.
+obj/hfdynamic.csproj.nuget.g.targets, code is 6, comment is 0, blank is 0.
+obj/project.assets.json, code is 2307, comment is 0, blank is 60.
+plugins/plugin1/hfdynamic_job1.deps.json, code is 63, comment is 0, blank is 0.
+plugins/plugin1/hfdynamic_job1.dll, it is a binary file.
+plugins/plugin1/hfdynamic_job1.pdb, it is a binary file.
+plugins/plugin1/Newtonsoft.Json.dll, it is a binary file.
+Program.cs, code is 34, comment is 0, blank is 7.
+Properties/launchSettings.json, code is 30, comment is 0, blank is 0.
+Startup.cs, code is 79, comment is 10, blank is 15.
+===============================================================================

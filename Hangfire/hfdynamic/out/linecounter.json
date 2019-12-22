@@ -1,0 +1,466 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.1",
+    "workspace": "/Users/alimozdemir/Documents/Temp/hfdynamic",
+    "linecount": [
+        {
+            "version": "0.2.1",
+            "counttime": "2019-08-10 16:44:27",
+            "filesum": 62,
+            "codesum": 20003,
+            "commentsum": 29,
+            "blanksum": 131,
+            "statistics": {
+                ".cs": {
+                    "code": 273,
+                    "comment": 29,
+                    "blank": 60
+                },
+                ".targets": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".props": {
+                    "code": 15,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cache": {
+                    "code": 8,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 19648,
+                    "comment": 0,
+                    "blank": 67
+                },
+                ".csproj": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".CopyComplete": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 40,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xml": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "appsettings.Development.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "appsettings.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/appsettings.Development.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/appsettings.json"
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Dapper.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/es/Hangfire.Core.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Hangfire.AspNetCore.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Hangfire.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Hangfire.PostgreSql.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 4159,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic.deps.json"
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic.runtimeconfig.dev.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/hfdynamic.runtimeconfig.json"
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/nl/Hangfire.Core.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/Npgsql.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/plugins/plugin1/hfdynamic_job1.deps.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "bin/Debug/netcoreapp3.0/Properties/launchSettings.json"
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/pt-BR/Hangfire.Core.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/win-arm64/native/sni.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/win-x64/native/sni.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/win-x86/native/sni.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/System.Data.SqlClient.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/System.Text.Encoding.CodePages.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/zh-TW/Hangfire.Core.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "bin/Debug/netcoreapp3.0/zh/Hangfire.Core.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 14,
+                    "code": 51,
+                    "comment": 9,
+                    "filename": "Controllers/ValuesController.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "hfdynamic.csproj"
+                },
+                {
+                    "blank": 14,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "Jobs/DynamicLoad.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Jobs/PluginLoadContext.cs"
+                },
+                {
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.csproj.CopyComplete"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.csprojAssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.MvcApplicationPartsAssemblyInfo.cs"
+                },
+                {
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/hfdynamic.RazorTargetAssemblyInfo.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 12853,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/project.razor.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/staticwebassets/hfdynamic.StaticWebAssets.Manifest.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "obj/Debug/netcoreapp3.0/staticwebassets/hfdynamic.StaticWebAssets.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "obj/hfdynamic.csproj.nuget.cache"
+                },
+                {
+                    "blank": 5,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "obj/hfdynamic.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "obj/hfdynamic.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "obj/hfdynamic.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 60,
+                    "code": 2307,
+                    "comment": 0,
+                    "filename": "obj/project.assets.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "plugins/plugin1/hfdynamic_job1.deps.json"
+                },
+                {
+                    "filename": "plugins/plugin1/hfdynamic_job1.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "plugins/plugin1/hfdynamic_job1.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "plugins/plugin1/Newtonsoft.Json.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Program.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Properties/launchSettings.json"
+                },
+                {
+                    "blank": 15,
+                    "code": 79,
+                    "comment": 10,
+                    "filename": "Startup.cs"
+                }
+            ]
+        }
+    ]
+}
